@@ -1,6 +1,0 @@
-# Thrust measured on the bench at about 3000 RPM (report, Section 2.8). 1 gram-force = 9.80665 mN.
-pitch_deg,thrust_g,thrust_N
-2,102,1.000
-4,130,1.275
-10,172,1.687
-15,202,1.981
