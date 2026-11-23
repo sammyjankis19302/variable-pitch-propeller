@@ -1,0 +1,13 @@
+# Arduino and avr-gcc build output
+build/
+*.elf
+*.hex
+# SolidWorks lock and backup files
+~$*
+*.SLDBAK
+# Python
+__pycache__/
+*.pyc
+# OS clutter
+.DS_Store
+Thumbs.db
