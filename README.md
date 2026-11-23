@@ -27,6 +27,20 @@ post the servo turns a pinion, which slides the yellow rack into the hub and tur
 | **Measured** | 102 g of thrust at a pitch of 2°, rising to 202 g at 15°, at about 3000 RPM |
 | **Team** | five students, May to July 2025 |
 
+## The first time it worked
+
+<p align="center">
+<img src="media/first-time-it-worked.gif" width="32%"> <img src="media/at-the-bench.gif" width="32%"><br>
+<sub>Left: the first time the propeller spun and its blades changed pitch while it was spinning, and our faces when it
+did. Right: at the bench, working on it while it runs. Full clips, without sound:
+<a href="media/videos/11-first-time-it-worked.mp4">58 s</a> and <a href="media/videos/12-at-the-bench.mp4">28 s</a>.</sub></p>
+
+Weeks of printing, wiring and debugging came down to this clip: the motor spins up, the servo turns
+the blades while they spin, and everything we had drawn, printed and coded works at once, for the
+first time. By today's standards it is a small thing. At the time it was enormous. All twenty of
+our videos, from the first SolidWorks animation to the last bench run, are on the
+[videos page](media/README.md).
+
 ---
 
 ## What we built
@@ -50,7 +64,8 @@ the coupler, which holds a blade root, turns in its socket in the hub. Push the 
 blades twist together:
 
 <p align="center"><img src="media/pitch-change-on-the-bench.gif" width="62%"><br>
-<sub>The servo moving the rack and the blades turning with it, on the bench.</sub></p>
+<sub>The servo moving the rack and the blades turning with it, on the bench
+(<a href="media/README.md#the-servo-turning-the-blades">four clips of this</a>).</sub></p>
 
 The hub went through two versions, three blades and then two; both are in [cad/](cad/README.md),
 with the SolidWorks files.
@@ -110,7 +125,7 @@ Then came the bench itself, and the Arduino code, which took longer than everyth
 sketches were saved at 00:22 on 3 July, the date on our report.
 
 <p align="center"><img src="media/bench-spinning.gif" width="30%"><br>
-<sub>Spinning on the bench. A longer clip, without its sound, is <a href="media/bench-run.mp4">here</a>.</sub></p>
+<sub>Spinning on the bench. More runs are on the <a href="media/README.md">videos page</a>.</sub></p>
 
 ## What we measured
 
@@ -181,7 +196,7 @@ cad/         both hubs in SolidWorks, with the previews stored inside the files
 design/      the OpenProp blade designs
 cfd/         the Flow Simulation setup, the script and its numbers, and why they jump
 print/       the two G-code plates for the Ender-3 Pro
-media/       photos, GIFs and a short video (no sound)
+media/       photos, GIFs and twenty short videos (no sound), with a page of their own
 figures/     the diagrams in these pages, drawn by tools/make_figures.py
 report/      our report as submitted, with corrections
 tools/       make_figures.py, check_sketch.sh, sw_preview.py (SolidWorks previews)

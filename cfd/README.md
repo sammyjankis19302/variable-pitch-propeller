@@ -84,6 +84,9 @@ believing any trend with pitch.
 
 ## Pictures from the night
 
+<p align="center"><img src="images/flow-trajectories.gif" width="70%"><br>
+<sub>Flow Simulation drawing the trajectories through the propeller (a screen recording).</sub></p>
+
 | | | |
 |---|---|---|
 | ![](images/trajectories-0deg.jpg) | ![](images/trajectories-10deg.jpg) | ![](images/velocity-cut-plot.jpg) |

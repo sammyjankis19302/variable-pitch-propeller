@@ -51,6 +51,10 @@ blade. This is the version we printed and put on the bench.
 </tr>
 </table>
 
+<p align="center"><img src="../media/cad-two-blade-pitch.gif" width="55%"><br>
+<sub>Setting the blade angle of the two-blade assembly in SolidWorks (a screen recording,
+<a href="../media/videos/03-cad-two-blade-angle-mate.mp4">full clip</a>).</sub></p>
+
 `Assem1.SLDASM` also uses a blade from a downloaded 10×4.5 propeller model, which is not ours and is
 not included, so SolidWorks will report that part as missing when it opens the assembly.
 

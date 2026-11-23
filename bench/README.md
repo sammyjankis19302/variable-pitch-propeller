@@ -27,6 +27,8 @@ blades passing between them (the servo is at the top right).</sub></p>
 | Frame | wooden posts on a white board, aluminium brackets |
 
 The rack and the pinions came from SP Road on 1 July 2025 ([photo](../media/sp-road-rack-and-pinions-2025-07-01.jpg)).
+Videos of the bench at work, including the first time it all ran together, are on the
+[videos page](../media/README.md).
 
 ## The sketches
 
