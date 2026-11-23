@@ -18,7 +18,7 @@ jump around.
 | | |
 |---|---|
 | Solver | SolidWorks Flow Simulation, external flow, air at standard sea-level conditions |
-| Geometry | our two-blade hub carrying the blade of a downloaded 10×4.5 propeller model (the bodies inside the files are named `10x45_wing`), saved as one part per pitch setting (0°, 2°, … 30°) |
+| Geometry | our two-blade hub carrying our OpenProp blade (the bodies inside the files are named `10x45_wing`), saved as one part per pitch setting (0°, 2°, … 30°): they are in [`models/`](models/) |
 | Rotation | a cylindrical rotating region around the propeller at 314.16 rad/s, which is 3000 RPM ([screenshot](images/rotating-region-3000rpm.jpg)) |
 | Mesh | automatic global mesh ([settings](images/global-mesh-settings.jpg)) |
 | Output | surface goals: average velocity, mass flow and volume flow on two surfaces, one on each side of the blades |
@@ -38,7 +38,7 @@ We ran two rounds, both on 16 June:
   [`Final_graph_code.py`](Final_graph_code.py), which works out a thrust for each angle. Its numbers
   are in [`cfd_runs.csv`](cfd_runs.csv), with a note on where each one came from.
 
-The evening before, we had also set up a downloaded APC 12×6 propeller on its own
+The evening before, we had also set up an APC 12×6 propeller model on its own
 (`test1_without_hub_1206`); we have no results from it.
 
 ## What came out
@@ -99,6 +99,9 @@ believing any trend with pitch.
 | [`Final_graph_code.py`](Final_graph_code.py) | the script as we wrote it on 16 June 2025: the averaged goal values typed in, the thrust formula, six plots |
 | [`cfd_runs.csv`](cfd_runs.csv) | the same numbers as a table, with the script's thrust for each angle and, where a solver window survives, which goal each number was copied from |
 | [`images/`](images/) | trajectories at 0°, 10° and 20°, a velocity cut plot, the goal lists, the rotating region and the mesh settings |
+| [`models/`](models/) | the sixteen pitch-setting parts with their Flow Simulation projects (SolidWorks 2024) |
 
-The Flow Simulation models are not here: their blades come from a downloaded propeller model that
-is not ours to share. The result folders are not here either.
+[`models/`](models/) has the sixteen pitch settings: `test1_with_hub_1206_*` for 0° to 28° (the round-2
+models behind the numbers above) and the 30° part (`30.SLDPRT` in our folder). Each holds its Flow
+Simulation project; the result folders are not included, so SolidWorks will open the setup but not the
+results.

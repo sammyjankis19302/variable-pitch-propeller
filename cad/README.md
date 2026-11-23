@@ -55,11 +55,12 @@ blade. This is the version we printed and put on the bench.
 <sub>Setting the blade angle of the two-blade assembly in SolidWorks (a screen recording,
 <a href="../media/videos/03-cad-two-blade-angle-mate.mp4">full clip</a>).</sub></p>
 
-`Assem1.SLDASM` also uses a blade from a downloaded 10×4.5 propeller model, which is not ours and is
-not included, so SolidWorks will report that part as missing when it opens the assembly.
+The blades are our OpenProp design. `Propeller 10x45.SLDPRT` is the two-blade propeller; the assembly
+uses its blade as a separate part, `10x45_wing`, which is not in this folder, so SolidWorks will report
+that part as missing when it opens `Assem1.SLDASM`.
 
-## Not included
+## Other files
 
-* The sixteen blade-angle models used for the CFD (0° to 30°): they carry the blade of the
-  downloaded 10×4.5 propeller model. What came out of them is in [`cfd/`](../cfd/README.md).
-* The downloaded propeller models themselves.
+* The sixteen blade-angle models used for the CFD are in [`cfd/models/`](../cfd/models/), next to what came
+  out of them.
+* The APC 12×6 model, a catalogue propeller we only tried in Flow Simulation, is not ours to share.

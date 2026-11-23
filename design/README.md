@@ -26,8 +26,8 @@ it, and the first time we had seen a propeller come out of an equation.
 
 The first design became the three-blade hub of May 2025: its sections were brought into SolidWorks
 as curves and lofted into a blade ([`cad/v1-three-blade/trial 1 blade.SLDPRT`](../cad/v1-three-blade/)).
-When we moved to two blades at the end of May, the assembly took the blade of a downloaded 10×4.5
-propeller model instead (the assembly calls it `10x45_wing`), and the CFD used that blade too.
+When we moved to two blades at the end of May, the blade came from OpenProp too (the assembly calls it
+`10x45_wing`), and the CFD used that blade.
 
 One thing we did not see at the time: OpenProp designs a propeller for a forward speed (here 15 m/s
 and 5 m/s), and its equations need one; the screen even shows L = ωR/V. Our bench measured static

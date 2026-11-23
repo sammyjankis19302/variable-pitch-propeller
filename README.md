@@ -32,8 +32,8 @@ post the servo turns a pinion, which slides the yellow rack into the hub and tur
 <p align="center">
 <img src="media/first-time-it-worked.gif" width="32%"> <img src="media/at-the-bench.gif" width="32%"><br>
 <sub>Left: the first time the propeller spun and its blades changed pitch while it was spinning, and our faces when it
-did. Right: at the bench, working on it while it runs. Full clips, without sound:
-<a href="media/videos/11-first-time-it-worked.mp4">58 s</a> and <a href="media/videos/12-at-the-bench.mp4">28 s</a>.</sub></p>
+did. Right: at the bench, working on it while it runs. Full clips:
+<a href="media/videos/11-first-time-it-worked.mp4">58 s, with its sound</a>, and <a href="media/videos/12-at-the-bench.mp4">28 s</a>.</sub></p>
 
 Weeks of printing, wiring and debugging came down to this clip: the motor spins up, the servo turns
 the blades while they spin, and everything we had drawn, printed and coded works at once, for the
@@ -194,9 +194,9 @@ setup and the numbers, and explains, as far as we understand it now, why they ca
 bench/       the thrust bench: parts, wiring, the six Arduino sketches, the measured thrust
 cad/         both hubs in SolidWorks, with the previews stored inside the files
 design/      the OpenProp blade designs
-cfd/         the Flow Simulation setup, the script and its numbers, and why they jump
+cfd/         the Flow Simulation models, the script and its numbers, and why they jump
 print/       the two G-code plates for the Ender-3 Pro
-media/       photos, GIFs and twenty short videos (no sound), with a page of their own
+media/       photos, GIFs and twenty short videos, with a page of their own
 figures/     the diagrams in these pages, drawn by tools/make_figures.py
 report/      our report as submitted, with corrections
 tools/       make_figures.py, check_sketch.sh, sw_preview.py (SolidWorks previews)

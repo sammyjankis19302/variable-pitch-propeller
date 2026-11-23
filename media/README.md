@@ -2,8 +2,9 @@
 
 *[← back to the project](../README.md)*
 
-Twenty short clips, from our phones and our screens, May to July 2025, all without their sound. The GIFs play on this
-page; click any picture to open its clip. GitHub offers an MP4 as a download ("View raw"), and any
+Twenty short clips, from our phones and our screens, May to July 2025. The GIFs on this page are
+silent; the clips are too, except the first-time-it-worked clip, which keeps its sound (mute it in your
+player if you like). Click any picture to open its clip. GitHub offers an MP4 as a download ("View raw"), and any
 video player will play it.
 
 ## The first time it worked
@@ -12,7 +13,7 @@ video player will play it.
 <tr>
 <td align="center" width="50%"><a href="videos/11-first-time-it-worked.mp4"><img src="first-time-it-worked.gif" width="230"></a><br>
 <sub>The propeller spinning and its blades changing pitch at the same time, for the first time, and the faces
-that went with it. <a href="videos/11-first-time-it-worked.mp4">Full clip, 58 s</a></sub></td>
+that went with it. <a href="videos/11-first-time-it-worked.mp4">Full clip, with sound, 58 s</a></sub></td>
 <td align="center" width="50%"><a href="videos/12-at-the-bench.mp4"><img src="at-the-bench.gif" width="230"></a><br>
 <sub>At the bench, working on it while it runs. <a href="videos/12-at-the-bench.mp4">Full clip, 28 s</a></sub></td>
 </tr>

@@ -1,4 +1,4 @@
-# SolidWorks Flow Simulation, 16 June 2025: our two-blade hub with the blade of a downloaded 10x4.5 propeller model, at 3000 RPM.
+# SolidWorks Flow Simulation, 16 June 2025: our two-blade hub with our OpenProp blade, at 3000 RPM.
 # v_in, v_out and mass_flow are the values typed into cfd/Final_graph_code.py; "source" says which solver goal they match, where a screenshot survives.
 # thrust_estimate_N = rho*A*v_avg*(v_out - v_in), the script's formula (rho = 1.225 kg/m^3, D = 0.328 m). Unvalidated: see cfd/README.md.
 pitch_deg,v_in_m_s,v_out_m_s,mass_flow_kg_s,thrust_estimate_N,source
